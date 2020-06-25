@@ -8,5 +8,5 @@ pip3 install -r requirements.txt
 
 To prep data:
 ```
-./data_prep.sh
+code/data_prep/data_prep.sh
 ```
