@@ -20,8 +20,7 @@ def main():
     most_frequent_device_and_count = max(repeats.items(), key=lambda entry: entry[1])
     most_frequent_device_id = most_frequent_device_and_count[0]
     rows = df[df['device_id'] == most_frequent_device_id]
-    print(rows['longitude'])
-    print(rows['latitude'])
+    print(rows[['latitude', 'longitude']])
 
     
 if __name__ == '__main__':
