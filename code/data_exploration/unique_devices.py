@@ -37,6 +37,11 @@ def single_device_tracking(base_path='.'):
 
     return rows[['latitude', 'longitude']]
 
+def all_device_tracking(base_path='.'):
+    df = device_locations(base_path)
+    return df
+    # return df[['latitude', 'longitude']]
+
 def main():
     print(single_device_tracking())
 
