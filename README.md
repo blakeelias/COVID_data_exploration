@@ -10,6 +10,7 @@ sudo apt install python3-rtree --quiet
 python3 -m venv env
 source env/bin/activate
 pip3 install -r requirements.txt
+pip3 install git+git://github.com/geopandas/geopandas.git
 ```
 
 To prep data:
