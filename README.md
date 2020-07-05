@@ -13,12 +13,19 @@ pip3 install -r requirements.txt
 pip3 install git+git://github.com/geopandas/geopandas.git
 ```
 
+
+## Ubermedia Cell Phone Mobility
+
 To prep data:
 ```
-code/data_prep/data_prep.sh
+code/data_prep/ubermedia_data_prep.sh
 ```
 
 To run data exploration:
 ```
 python3 code/data_exploration/unique_devices.py
 ```
+
+
+
+
